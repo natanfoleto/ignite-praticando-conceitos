@@ -1,0 +1,9 @@
+.newTask {
+  width: 736px;
+  margin-bottom: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}

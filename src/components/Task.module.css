@@ -1,0 +1,66 @@
+.task {
+  width: 100%;
+  background-color: var(--gray-500);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+
+.checkbox button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.checkbox button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  transition: 0.15s;
+}
+
+.checked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.unchecked {
+  color: var(--gray-100);
+}
+
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+}
+
+.delete:hover {
+  cursor: pointer;
+  background-color: var(--gray-400);
+  transition: 0.15s;
+}
+
+.delete:hover svg path {
+  fill: var(--red-500);
+}
